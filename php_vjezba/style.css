@@ -1,0 +1,363 @@
+body, html {
+	font-family: 'Roboto Slab', serif;
+	margin: 0;
+	font-size: 16px;
+	background-color: #e0ecff;
+}
+
+main a {
+	color: #29497c;
+	text-decoration: none;
+}
+
+main a:hover {
+	color: #16263f;
+	text-decoration: underline;
+}
+
+.banner-image {
+	background-image: url("images/butterflies_1280.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 300px;
+}
+
+header {
+	display: block;
+	width: 100%;
+}
+
+footer {
+	font-size: 12px;
+	background-color: #29497c;
+	padding: 0.3em;
+	text-align: center;
+}
+footer a {
+	color: #ddddff;
+}
+
+footer a:hover {
+	color: #ffffff;
+}
+
+footer p {
+	color: #ffffff;
+	margin: 0.4em
+}
+
+div.user-message {
+	display: block;
+	font-size: 16px;
+	background-color: #29497c;
+	color: white;
+	text-align: right;
+	padding: 4px 16px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #16263f;
+}
+
+li {
+	float: left;
+}
+
+li.nav-right {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #29497c;
+}
+
+h1 {
+	margin: 0.5em;
+	font-size: 2em;
+	color: #27318b;
+}
+
+h2 {
+	margin: 0.5em;
+	font-size: 1.5em;
+	color: #27318b;
+}
+
+p {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+
+p.centerparagraph {
+	text-align: center;
+}
+
+p.loginerror {
+	text-align: center;
+	color: red;
+}
+
+hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+
+figure {
+	padding: 1em;
+	margin: 0 1em 0.5em 1em;
+	float: right;
+	width: 30%;
+	border: 1px solid black;
+	text-align: center;
+}
+
+figcaption {
+	font-size: 90%;
+}
+
+img {
+	width: 80%;
+	height: 80%;
+}
+
+.articles img {
+	width: 10%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+
+.articles hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+
+.articles time {
+	font-size: 90%;
+	font-style: italic;
+}
+
+#article-gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 10%;
+	border: 1px solid black;
+}
+
+#article-gallery figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+
+#contact, #registration, #loginform, #articleediting {
+	margin: 1em;
+	text-align: center;
+}
+
+.with-border {
+	border: 1px solid black;
+	width: 80%;
+	margin: auto;
+}
+
+label {
+	display: block;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=date], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 95%;
+	text-align: center;
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #16263f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+	margin: auto;
+}
+
+input[type=submit]:hover {
+    background-color: #29497c;
+}
+
+input[type=button], input[type=file] {
+    display: block;
+	background-color: #16263f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	margin: auto;
+}
+
+input[type=button]:hover, input[type=button]:hover {
+    background-color: #29497c;
+}
+
+
+button {
+	float: right;
+	background-color: #16263f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	margin: 0 0 0 1em;;
+}
+
+button:hover {
+    background-color: #29497c;
+}
+
+video {
+	margin: 0 1em 1em 1em;
+	float: left;
+}
+
+table {
+	margin-left:auto; 
+    margin-right:auto;
+	font-size: 1.2em;
+	font-family: 'Oswald', sans-serif;
+	color: #27318b;
+}
+
+td.label {
+	text-align: right;
+	padding: 6px 20px;
+	color: #27318b;
+}
+
+td.value {
+	text-align: left;
+	font-style: italic;
+	font-weight: bold;
+	color: #4953ad;
+}
+
+table.adminusers {
+	width: 75%;
+	border: none;
+}
+
+select.adminusers {
+	width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 95%;
+	text-align: center;
+}
+
+
+table.adminusers {
+	background-color: #29497c;
+	text-align: left;
+	color: white;
+    border: none;
+}
+
+td.adminusers {
+	width: 15%;
+	padding: 4px;
+}
+
+td.editart {
+	width: 8%;
+	padding: 4px;
+}
+
+tr.even, td.even {
+	background-color: #6d8dbf;
+	padding: 8px;
+}
+
+tr.odd, td.odd {
+	background-color: #4b6b9e;
+	padding: 8px;
+}
+
+input[type=submit].editsubmit, input[type=file].editsubmit {
+    display: block;
+	background-color: #16263f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+	margin: 0 1em auto 1em auto;
+	
+}
+
+table.pictures {
+	width: 30%;
+	margin-left:auto; 
+    margin-right:auto;
+	font-size: 1.2em;
+	font-family: 'Oswald', sans-serif;
+}
+
+button.pictures, input.pictures {
+	width: 75%;
+	padding: 12px 20px;
+	margin: 0 1em 0.5em 1em;
+}
+
+#gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 15%;
+	border: 1px solid #29497c;
+}
+
+#gallery figcaption {
+	font-size: 90%;
+	height: 50px;
+	text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+}
